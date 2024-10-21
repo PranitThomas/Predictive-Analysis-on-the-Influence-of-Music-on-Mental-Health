@@ -1,9 +1,68 @@
-In today's fast-paced world, mental health concerns are on the rise, with an estimated 1 in 8 people worldwide living with a mental disorder. According to the World Health Organization (WHO), mental health conditions are projected to account for 20% of the global disease burden by 2030, with depression and anxiety among the leading causes of disability. Music, as a universal language, has long been associated with emotional and psychological regulation, offering both therapeutic and expressive benefits. Research has shown that music can influence mood, reduce stress, and provide comfort during challenging times. With this understanding, our project seeks to develop a platform that assesses the relationship between music preferences and mental health indicators. By creating a model that predicts key psychological parameters—'Unhealthy', 'Healthy', 'K-10', 'Openness', 'Conscientiousness', 'Extraversion', 'Agreeableness', and 'Neuroticism'—we aim to provide valuable insights into how music affects well-being and personality traits.
 
-This project is built on an extensive dataset that captures a wide range of variables related to demographics, music habits, and mental health. The dataset consists of over 60 columns, including inputs such as 'Gender', 'Age', 'Nationality', 'Your interest in music?', and 'What kind of music do you like to listen to when you feel low?'. These inputs are essential in understanding the user’s interaction with music and its potential impact on their mental state. For instance, questions related to emotional responses to music—such as 'I hide in my music because nobody understands me, and it blocks people out' and 'Music helps me relax'—offer insight into how music is used as a coping mechanism. Additionally, the dataset includes mental health-related questions based on the Kessler Psychological Distress Scale (K-10), a well-established tool for measuring anxiety and depression symptoms, which forms the foundation for predicting the 'K-10' score.
+# 🎵 Predictive Analysis of Music Theory on Mental Health 🎶
 
-The model developed leverages machine learning techniques to analyze user inputs and predict outcomes for the aforementioned psychological parameters. 'Openness', 'Conscientiousness', 'Extraversion', 'Agreeableness', and 'Neuroticism' are key personality traits that are critical in understanding an individual's behavior, relationships, and emotional resilience. For instance, high levels of 'Extraversion' might indicate a tendency to engage in social activities, while 'Neuroticism' often correlates with emotional instability and higher stress levels. By offering personalized predictions based on these traits, the system provides users with a deeper understanding of their psychological landscape. It not only shows how their music habits relate to mental health but also provides actionable insights into areas that may require attention. For example, users who score higher on 'Neuroticism' and 'Unhealthy' might be encouraged to adopt healthier music practices to improve their mental well-being. Similarly, individuals with lower 'Conscientiousness' scores may discover how music influences their ability to focus and organize.
+## Overview
 
-The potential applications of this project extend beyond individual users to mental health professionals and researchers. As mental health awareness continues to grow, tools like this could offer a novel approach to understanding emotional well-being through the lens of music therapy. Studies have already shown that music therapy can be an effective treatment for anxiety, depression, and other mental health conditions. By combining this with a predictive model that analyzes a user's personality and mental health status, we can provide personalized music-based interventions that enhance mental well-being. For example, an individual experiencing high levels of stress or anxiety could receive recommendations on specific types of music that may help alleviate their symptoms. Furthermore, the platform could be integrated into wellness apps, allowing users to track their mental health progress over time and adjust their music habits accordingly.
+This project proposes the development of a predictive model that analyzes the relationship between music preferences and mental health outcomes. By utilizing a diverse dataset, this model aims to identify patterns and correlations between individuals' music choices and psychological parameters like 'Conscientiousness', 'Neuroticism', Extraversion, K-10 scores and other personality traits. Users will be able to input their personal data regarding music preferences, lifestyle, and mental health status, and receive tailored predictions related to their mental health indicators.
 
-In conclusion, this project represents a significant step towards understanding the intricate connection between music and mental health. By predicting parameters such as 'Unhealthy', 'Healthy', 'K-10', 'Openness', 'Conscientiousness', 'Extraversion', 'Agreeableness', and 'Neuroticism', the aim is to offer users valuable insights into how their music choices shape their emotional and psychological states. As mental health continues to be a critical issue globally, the potential for this to grow and become a valuable tool stands for both individuals and professionals looking for personalized ways to improve well-being. Through the power of machine learning and the universal influence of music, this project aspires to contribute to a deeper understanding of mental health, providing a scalable and innovative solution for those seeking to enhance their mental and emotional well-being.
+## Table of Contents
+- [Project Overview](#overview)
+- [Features](#features)
+- [Dataset](#dataset)
+- [Methodology](#methodology)
+- [Installation](#installation)
+- [Technologies](#technologies)
+- [Contributing](#contributing)
+
+## Features
+- 🎶 **Music Theory Analysis**: Analyze musical relationship between music preferences and mental health outcomes.
+- 📈 **Predictive Models**: Implement machine learning models to predict how different musical preferences influence mental health metrics.
+- 📊 **Data Visualization**: Generate insightful graphs and charts to represent the relationship between music and mental health.
+- 🧠 **Mental Health Analytics**: Use psychological datasets to assess the emotional and cognitive impact of musical patterns.
+
+## Dataset
+- **Music Dataset**: Contains features such as Openness, Conscientiousness, Agreeableness, etc.
+- **Mental Health Dataset**: Includes user-reported emotional responses and mental health metrics.
+
+> **Note**: For ethical reasons, anonymized and publicly available datasets are used.
+
+## Methodology
+1. **Data Collection**: Gather and preprocess musical features and mental health-related data.
+2. **Feature Extraction**: Extract key features like  'Unhealthy', 'Healthy', 'K-10' (mental health scale), and personality traits (Openness, Conscientiousness, Extraversion, Agreeableness, Neuroticism).
+3. **Modeling**: Build predictive models (e.g., linear regression, randomForest, XGBoost) to study the correlation between music and mental health.
+4. **Evaluation**: Validate models using metrics such as accuracy, precision, and F1 score.
+
+## Installation
+To set up the project locally, follow these steps:
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/PranitThomas/Predictive-Analysis-on-the-Influence-of-Music-on-Mental-Health
+    cd Predictive-Analysis-on-the-Influence-of-Music-on-Mental-Health
+    ```
+
+2. Create a virtual environment and activate it:
+    ```bash
+    python -m venv venv
+    source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+    ```
+
+3. Install the required dataset:
+    ```bash
+    pip install -r User_scores_nonPII2.0.csv
+    ```
+
+## Technologies
+- Python, Jupyter
+- Pandas, NumPy (Data processing)
+- Scikit-learn, TensorFlow, XGBoost (Machine learning)
+- Matplotlib, Seaborn, joblib (Data visualization)
+
+## Contributing
+Contributions are welcome! If you'd like to collaborate, please fork the repository and submit a pull request.
+
+1. Fork the repository.
+2. Create a new branch for your feature: `git checkout -b feature-branch`.
+3. Commit your changes: `git commit -m 'Add some feature'`.
+4. Push to the branch: `git push origin feature-branch`.
+5. Open a pull request.
