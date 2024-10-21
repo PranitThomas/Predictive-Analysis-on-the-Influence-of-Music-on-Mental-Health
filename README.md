@@ -16,8 +16,8 @@ This project proposes the development of a predictive model that analyzes the re
 
 ## Features
 - 🎶 **Music Theory Analysis**: Analyze musical relationship between music preferences and mental health outcomes.
-- 📈 **Predictive Models**: Implement machine learning models to predict how different musical preferences influence mental health metrics.
-- 📊 **Data Visualization**: Utilize XGBoost for feature importance analysis and model performance evaluation.
+- 📈 **Predictive Models**: Implemented machine learning models to identify what works best with the dataset. 
+- 📊 **Data Prediction**: Utilize XGBoost to predict how different musical preferences influence mental health metrics.
 - 🧠 **Mental Health Analytics**: Use psychological datasets to assess the emotional and cognitive impact of musical patterns.
 
 ## Dataset
@@ -55,8 +55,8 @@ To set up the project locally, follow these steps:
 ## Technologies
 - Python, Jupyter
 - Pandas, NumPy (Data processing)
-- Scikit-learn, TensorFlow, XGBoost (Machine learning)
-- Matplotlib, Seaborn, joblib (Data visualization)
+- Scikit-learn, XGBoost (Machine learning)
+- Joblib (To save encoders, scalers and trained models)
 
 ## Contributing
 Contributions are welcome! If you'd like to collaborate, please fork the repository and submit a pull request.
