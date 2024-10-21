@@ -17,7 +17,7 @@ This project proposes the development of a predictive model that analyzes the re
 ## Features
 - 🎶 **Music Theory Analysis**: Analyze musical relationship between music preferences and mental health outcomes.
 - 📈 **Predictive Models**: Implement machine learning models to predict how different musical preferences influence mental health metrics.
-- 📊 **Data Visualization**: Generate insightful graphs and charts to represent the relationship between music and mental health.
+- 📊 **Data Visualization**: Utilize XGBoost for feature importance analysis and model performance evaluation.
 - 🧠 **Mental Health Analytics**: Use psychological datasets to assess the emotional and cognitive impact of musical patterns.
 
 ## Dataset
