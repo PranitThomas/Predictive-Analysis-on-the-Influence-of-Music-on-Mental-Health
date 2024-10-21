@@ -30,7 +30,7 @@ This project proposes the development of a predictive model that analyzes the re
 1. **Data Collection**: Gather and preprocess musical features and mental health-related data.
 2. **Feature Extraction**: Extract key features like  'Unhealthy', 'Healthy', 'K-10' (mental health scale), and personality traits (Openness, Conscientiousness, Extraversion, Agreeableness, Neuroticism).
 3. **Modeling**: Build predictive models (e.g., linear regression, randomForest, XGBoost) to study the correlation between music and mental health.
-4. **Evaluation**: Validate models using metrics such as accuracy, precision, and F1 score.
+4. **Evaluation**: Validate models using metrics such as R2 Score.
 
 ## Installation
 To set up the project locally, follow these steps:
