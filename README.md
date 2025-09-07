@@ -21,7 +21,6 @@ This project proposes the development of a predictive model that analyzes the re
 - 🧠 **Mental Health Analytics**: Use psychological datasets to assess the emotional and cognitive impact of musical patterns.
 
 ## Dataset
-- **Music Dataset**: Contains features such as Openness, Conscientiousness, Agreeableness, etc.
 - **Mental Health Dataset**: Includes user-reported emotional responses and mental health metrics.
 
 > **Note**: For ethical reasons, anonymized and publicly available datasets are used.
